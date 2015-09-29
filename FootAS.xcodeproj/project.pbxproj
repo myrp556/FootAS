@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C0442141B92B12F0076DC93 /* UARTPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0442131B92B12F0076DC93 /* UARTPeripheral.m */; };
+		5C0442181B92B1830076DC93 /* spot.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C0442161B92B1830076DC93 /* spot.png */; };
 		5C497F5C1B92B0AC004038DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C497F5B1B92B0AC004038DC /* main.m */; };
 		5C497F5F1B92B0AC004038DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C497F5E1B92B0AC004038DC /* AppDelegate.m */; };
 		5C497F621B92B0AC004038DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C497F611B92B0AC004038DC /* ViewController.m */; };
@@ -14,6 +16,38 @@
 		5C497F671B92B0AC004038DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C497F661B92B0AC004038DC /* Images.xcassets */; };
 		5C497F6A1B92B0AC004038DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C497F681B92B0AC004038DC /* LaunchScreen.xib */; };
 		5C497F761B92B0AC004038DC /* FootASTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C497F751B92B0AC004038DC /* FootASTests.m */; };
+		5C96EC841B92C4A200A9A614 /* button_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C96EC801B92C4A200A9A614 /* button_selected.png */; };
+		5C96EC851B92C4A200A9A614 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C96EC811B92C4A200A9A614 /* button.png */; };
+		5C96ECB81B92E9F800A9A614 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C96ECB71B92E9F800A9A614 /* InterfaceController.m */; };
+		5C96ECBA1B92E9F800A9A614 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C96ECB91B92E9F800A9A614 /* Images.xcassets */; };
+		5C96ECBE1B92E9F800A9A614 /* FootAS WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 5C96ECBD1B92E9F800A9A614 /* FootAS WatchKit App.app */; };
+		5C96ECC61B92E9F800A9A614 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C96ECC41B92E9F800A9A614 /* Interface.storyboard */; };
+		5C96ECC81B92E9F800A9A614 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C96ECC71B92E9F800A9A614 /* Images.xcassets */; };
+		5C96ECCB1B92E9F800A9A614 /* FootAS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5C96ECB21B92E9F700A9A614 /* FootAS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5C96ECD51B92EE1700A9A614 /* UARTPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C96ECD41B92EE1700A9A614 /* UARTPeripheral.m */; };
+		5CD0D2801BAA78D100D97AD4 /* UUBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D2751BAA78D100D97AD4 /* UUBar.m */; };
+		5CD0D2811BAA78D100D97AD4 /* UUBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D2771BAA78D100D97AD4 /* UUBarChart.m */; };
+		5CD0D2821BAA78D100D97AD4 /* UUChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D2791BAA78D100D97AD4 /* UUChart.m */; };
+		5CD0D2831BAA78D100D97AD4 /* UUChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D27B1BAA78D100D97AD4 /* UUChartLabel.m */; };
+		5CD0D2841BAA78D100D97AD4 /* UUColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D27D1BAA78D100D97AD4 /* UUColor.m */; };
+		5CD0D2851BAA78D100D97AD4 /* UULineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D27F1BAA78D100D97AD4 /* UULineChart.m */; };
+		5CD0D2881BAA798F00D97AD4 /* TheLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D2871BAA798F00D97AD4 /* TheLineChart.m */; };
+		5CD0D2901BAC22D900D97AD4 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D28B1BAC22D900D97AD4 /* UIColor+HexColor.m */; };
+		5CD0D2911BAC22D900D97AD4 /* VBPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D28D1BAC22D900D97AD4 /* VBPieChart.m */; };
+		5CD0D2921BAC22D900D97AD4 /* VBPiePiece.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D28F1BAC22D900D97AD4 /* VBPiePiece.m */; };
+		5CD0D2951BAC230300D97AD4 /* TheBing.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD0D2941BAC230300D97AD4 /* TheBing.m */; };
+		5CD0D2971BAC3AF400D97AD4 /* foot.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD0D2961BAC3AF400D97AD4 /* foot.png */; };
+		5CD0D2991BAC3B1D00D97AD4 /* dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD0D2981BAC3B1D00D97AD4 /* dot.png */; };
+		5CD0D29B1BAC3B3100D97AD4 /* dot_light.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD0D29A1BAC3B3100D97AD4 /* dot_light.png */; };
+		5CD0D29E1BAC526C00D97AD4 /* button_light.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD0D29C1BAC526B00D97AD4 /* button_light.png */; };
+		5CD0D29F1BAC526C00D97AD4 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CD0D29D1BAC526B00D97AD4 /* button.png */; };
+		5CF2D59D1B95B256007F5F08 /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2D59C1B95B256007F5F08 /* MMWormhole.m */; };
+		5CF2D5A01B95B277007F5F08 /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2D59F1B95B277007F5F08 /* MMWormhole.m */; };
+		5CF2D5A21B97E121007F5F08 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CF2D5A11B97E121007F5F08 /* HealthKit.framework */; };
+		5CF2D5A51B981407007F5F08 /* HealthKitC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF2D5A41B981407007F5F08 /* HealthKitC.m */; };
+		5CF2D5A81B993A28007F5F08 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CF2D5A61B993A28007F5F08 /* default.png */; };
+		5CF2D5A91B993A28007F5F08 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CF2D5A71B993A28007F5F08 /* icon.png */; };
+		5CF2D5AD1B994057007F5F08 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CF2D5AC1B994057007F5F08 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,9 +58,40 @@
 			remoteGlobalIDString = 5C497F551B92B0AC004038DC;
 			remoteInfo = FootAS;
 		};
+		5C96ECBF1B92E9F800A9A614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C497F4E1B92B0AC004038DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C96ECBC1B92E9F800A9A614;
+			remoteInfo = "FootAS WatchKit App";
+		};
+		5C96ECC91B92E9F800A9A614 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C497F4E1B92B0AC004038DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C96ECB11B92E9F700A9A614;
+			remoteInfo = "FootAS WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5C96ECD21B92E9F800A9A614 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5C96ECCB1B92E9F800A9A614 /* FootAS WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5C0442121B92B12F0076DC93 /* UARTPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UARTPeripheral.h; sourceTree = "<group>"; };
+		5C0442131B92B12F0076DC93 /* UARTPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UARTPeripheral.m; sourceTree = "<group>"; };
+		5C0442161B92B1830076DC93 /* spot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spot.png; path = ../../../../Downloads/assert/spot.png; sourceTree = "<group>"; };
 		5C497F561B92B0AC004038DC /* FootAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootAS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C497F5A1B92B0AC004038DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C497F5B1B92B0AC004038DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +105,58 @@
 		5C497F6F1B92B0AC004038DC /* FootASTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FootASTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C497F741B92B0AC004038DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C497F751B92B0AC004038DC /* FootASTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FootASTests.m; sourceTree = "<group>"; };
+		5C96EC801B92C4A200A9A614 /* button_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_selected.png; path = ../../../../Downloads/assert/button_selected.png; sourceTree = "<group>"; };
+		5C96EC811B92C4A200A9A614 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = ../../../../Downloads/assert/button.png; sourceTree = "<group>"; };
+		5C96ECB21B92E9F700A9A614 /* FootAS WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FootAS WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C96ECB51B92E9F800A9A614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C96ECB61B92E9F800A9A614 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		5C96ECB71B92E9F800A9A614 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		5C96ECB91B92E9F800A9A614 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5C96ECBD1B92E9F800A9A614 /* FootAS WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FootAS WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C96ECC31B92E9F800A9A614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C96ECC51B92E9F800A9A614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		5C96ECC71B92E9F800A9A614 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5C96ECD31B92EE1700A9A614 /* UARTPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UARTPeripheral.h; sourceTree = "<group>"; };
+		5C96ECD41B92EE1700A9A614 /* UARTPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UARTPeripheral.m; sourceTree = "<group>"; };
+		5CD0D2741BAA78D100D97AD4 /* UUBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UUBar.h; path = UUChart/UUBar.h; sourceTree = "<group>"; };
+		5CD0D2751BAA78D100D97AD4 /* UUBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UUBar.m; path = UUChart/UUBar.m; sourceTree = "<group>"; };
+		5CD0D2761BAA78D100D97AD4 /* UUBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UUBarChart.h; path = UUChart/UUBarChart.h; sourceTree = "<group>"; };
+		5CD0D2771BAA78D100D97AD4 /* UUBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UUBarChart.m; path = UUChart/UUBarChart.m; sourceTree = "<group>"; };
+		5CD0D2781BAA78D100D97AD4 /* UUChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UUChart.h; path = UUChart/UUChart.h; sourceTree = "<group>"; };
+		5CD0D2791BAA78D100D97AD4 /* UUChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UUChart.m; path = UUChart/UUChart.m; sourceTree = "<group>"; };
+		5CD0D27A1BAA78D100D97AD4 /* UUChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UUChartLabel.h; path = UUChart/UUChartLabel.h; sourceTree = "<group>"; };
+		5CD0D27B1BAA78D100D97AD4 /* UUChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UUChartLabel.m; path = UUChart/UUChartLabel.m; sourceTree = "<group>"; };
+		5CD0D27C1BAA78D100D97AD4 /* UUColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UUColor.h; path = UUChart/UUColor.h; sourceTree = "<group>"; };
+		5CD0D27D1BAA78D100D97AD4 /* UUColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UUColor.m; path = UUChart/UUColor.m; sourceTree = "<group>"; };
+		5CD0D27E1BAA78D100D97AD4 /* UULineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UULineChart.h; path = UUChart/UULineChart.h; sourceTree = "<group>"; };
+		5CD0D27F1BAA78D100D97AD4 /* UULineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UULineChart.m; path = UUChart/UULineChart.m; sourceTree = "<group>"; };
+		5CD0D2861BAA798F00D97AD4 /* TheLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheLineChart.h; sourceTree = "<group>"; };
+		5CD0D2871BAA798F00D97AD4 /* TheLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheLineChart.m; sourceTree = "<group>"; };
+		5CD0D28A1BAC22D900D97AD4 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+HexColor.h"; path = "../bing/UIColor+HexColor.h"; sourceTree = "<group>"; };
+		5CD0D28B1BAC22D900D97AD4 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+HexColor.m"; path = "../bing/UIColor+HexColor.m"; sourceTree = "<group>"; };
+		5CD0D28C1BAC22D900D97AD4 /* VBPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VBPieChart.h; path = ../bing/VBPieChart.h; sourceTree = "<group>"; };
+		5CD0D28D1BAC22D900D97AD4 /* VBPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VBPieChart.m; path = ../bing/VBPieChart.m; sourceTree = "<group>"; };
+		5CD0D28E1BAC22D900D97AD4 /* VBPiePiece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VBPiePiece.h; path = ../bing/VBPiePiece.h; sourceTree = "<group>"; };
+		5CD0D28F1BAC22D900D97AD4 /* VBPiePiece.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VBPiePiece.m; path = ../bing/VBPiePiece.m; sourceTree = "<group>"; };
+		5CD0D2931BAC230300D97AD4 /* TheBing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TheBing.h; sourceTree = "<group>"; };
+		5CD0D2941BAC230300D97AD4 /* TheBing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TheBing.m; sourceTree = "<group>"; };
+		5CD0D2961BAC3AF400D97AD4 /* foot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = foot.png; path = ../../../../Downloads/foot/foot.png; sourceTree = "<group>"; };
+		5CD0D2981BAC3B1D00D97AD4 /* dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dot.png; path = ../../../../Downloads/foot/dot.png; sourceTree = "<group>"; };
+		5CD0D29A1BAC3B3100D97AD4 /* dot_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dot_light.png; path = ../../../../Downloads/foot/dot_light.png; sourceTree = "<group>"; };
+		5CD0D29C1BAC526B00D97AD4 /* button_light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button_light.png; path = ../../../../Downloads/foot/button_light.png; sourceTree = "<group>"; };
+		5CD0D29D1BAC526B00D97AD4 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = button.png; path = ../../../../Downloads/foot/button.png; sourceTree = "<group>"; };
+		5CF2D5991B95B1FF007F5F08 /* FootAS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FootAS.entitlements; sourceTree = "<group>"; };
+		5CF2D59A1B95B209007F5F08 /* FootAS WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "FootAS WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		5CF2D59B1B95B256007F5F08 /* MMWormhole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMWormhole.h; path = ../../MMWormhole.h; sourceTree = "<group>"; };
+		5CF2D59C1B95B256007F5F08 /* MMWormhole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMWormhole.m; path = ../../MMWormhole.m; sourceTree = "<group>"; };
+		5CF2D59E1B95B277007F5F08 /* MMWormhole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormhole.h; sourceTree = "<group>"; };
+		5CF2D59F1B95B277007F5F08 /* MMWormhole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormhole.m; sourceTree = "<group>"; };
+		5CF2D5A11B97E121007F5F08 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		5CF2D5A31B981406007F5F08 /* HealthKitC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthKitC.h; sourceTree = "<group>"; };
+		5CF2D5A41B981407007F5F08 /* HealthKitC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthKitC.m; sourceTree = "<group>"; };
+		5CF2D5A61B993A28007F5F08 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default.png; path = ../../../../Downloads/assert/default.png; sourceTree = "<group>"; };
+		5CF2D5A71B993A28007F5F08 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../../Downloads/assert/icon.png; sourceTree = "<group>"; };
+		5CF2D5AC1B994057007F5F08 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../../Downloads/assert/watch/icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,10 +164,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CF2D5A21B97E121007F5F08 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		5C497F6C1B92B0AC004038DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C96ECAF1B92E9F700A9A614 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -63,8 +188,13 @@
 		5C497F4D1B92B0AC004038DC = {
 			isa = PBXGroup;
 			children = (
+				5CD0D2891BAC223300D97AD4 /* Bing */,
+				5CD0D2731BAA78B500D97AD4 /* UUcharts */,
+				5CF2D5A11B97E121007F5F08 /* HealthKit.framework */,
 				5C497F581B92B0AC004038DC /* FootAS */,
 				5C497F721B92B0AC004038DC /* FootASTests */,
+				5C96ECB31B92E9F800A9A614 /* FootAS WatchKit Extension */,
+				5C96ECC11B92E9F800A9A614 /* FootAS WatchKit App */,
 				5C497F571B92B0AC004038DC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +204,8 @@
 			children = (
 				5C497F561B92B0AC004038DC /* FootAS.app */,
 				5C497F6F1B92B0AC004038DC /* FootASTests.xctest */,
+				5C96ECB21B92E9F700A9A614 /* FootAS WatchKit Extension.appex */,
+				5C96ECBD1B92E9F800A9A614 /* FootAS WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +213,9 @@
 		5C497F581B92B0AC004038DC /* FootAS */ = {
 			isa = PBXGroup;
 			children = (
+				5CF2D59B1B95B256007F5F08 /* MMWormhole.h */,
+				5CF2D59C1B95B256007F5F08 /* MMWormhole.m */,
+				5CF2D5991B95B1FF007F5F08 /* FootAS.entitlements */,
 				5C497F5D1B92B0AC004038DC /* AppDelegate.h */,
 				5C497F5E1B92B0AC004038DC /* AppDelegate.m */,
 				5C497F601B92B0AC004038DC /* ViewController.h */,
@@ -89,6 +224,14 @@
 				5C497F661B92B0AC004038DC /* Images.xcassets */,
 				5C497F681B92B0AC004038DC /* LaunchScreen.xib */,
 				5C497F591B92B0AC004038DC /* Supporting Files */,
+				5C0442121B92B12F0076DC93 /* UARTPeripheral.h */,
+				5C0442131B92B12F0076DC93 /* UARTPeripheral.m */,
+				5CF2D5A31B981406007F5F08 /* HealthKitC.h */,
+				5CF2D5A41B981407007F5F08 /* HealthKitC.m */,
+				5CD0D2861BAA798F00D97AD4 /* TheLineChart.h */,
+				5CD0D2871BAA798F00D97AD4 /* TheLineChart.m */,
+				5CD0D2931BAC230300D97AD4 /* TheBing.h */,
+				5CD0D2941BAC230300D97AD4 /* TheBing.m */,
 			);
 			path = FootAS;
 			sourceTree = "<group>";
@@ -96,6 +239,16 @@
 		5C497F591B92B0AC004038DC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5CD0D29C1BAC526B00D97AD4 /* button_light.png */,
+				5CD0D29D1BAC526B00D97AD4 /* button.png */,
+				5CD0D29A1BAC3B3100D97AD4 /* dot_light.png */,
+				5CD0D2981BAC3B1D00D97AD4 /* dot.png */,
+				5CD0D2961BAC3AF400D97AD4 /* foot.png */,
+				5CF2D5A61B993A28007F5F08 /* default.png */,
+				5CF2D5A71B993A28007F5F08 /* icon.png */,
+				5C96EC801B92C4A200A9A614 /* button_selected.png */,
+				5C96EC811B92C4A200A9A614 /* button.png */,
+				5C0442161B92B1830076DC93 /* spot.png */,
 				5C497F5A1B92B0AC004038DC /* Info.plist */,
 				5C497F5B1B92B0AC004038DC /* main.m */,
 			);
@@ -119,6 +272,81 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		5C96ECB31B92E9F800A9A614 /* FootAS WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5CF2D59E1B95B277007F5F08 /* MMWormhole.h */,
+				5CF2D59F1B95B277007F5F08 /* MMWormhole.m */,
+				5CF2D59A1B95B209007F5F08 /* FootAS WatchKit Extension.entitlements */,
+				5C96ECB61B92E9F800A9A614 /* InterfaceController.h */,
+				5C96ECB71B92E9F800A9A614 /* InterfaceController.m */,
+				5C96ECB91B92E9F800A9A614 /* Images.xcassets */,
+				5C96ECB41B92E9F800A9A614 /* Supporting Files */,
+				5C96ECD31B92EE1700A9A614 /* UARTPeripheral.h */,
+				5C96ECD41B92EE1700A9A614 /* UARTPeripheral.m */,
+			);
+			path = "FootAS WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		5C96ECB41B92E9F800A9A614 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C96ECB51B92E9F800A9A614 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C96ECC11B92E9F800A9A614 /* FootAS WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				5C96ECC41B92E9F800A9A614 /* Interface.storyboard */,
+				5C96ECC71B92E9F800A9A614 /* Images.xcassets */,
+				5C96ECC21B92E9F800A9A614 /* Supporting Files */,
+			);
+			path = "FootAS WatchKit App";
+			sourceTree = "<group>";
+		};
+		5C96ECC21B92E9F800A9A614 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CF2D5AC1B994057007F5F08 /* icon.png */,
+				5C96ECC31B92E9F800A9A614 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CD0D2731BAA78B500D97AD4 /* UUcharts */ = {
+			isa = PBXGroup;
+			children = (
+				5CD0D2741BAA78D100D97AD4 /* UUBar.h */,
+				5CD0D2751BAA78D100D97AD4 /* UUBar.m */,
+				5CD0D2761BAA78D100D97AD4 /* UUBarChart.h */,
+				5CD0D2771BAA78D100D97AD4 /* UUBarChart.m */,
+				5CD0D2781BAA78D100D97AD4 /* UUChart.h */,
+				5CD0D2791BAA78D100D97AD4 /* UUChart.m */,
+				5CD0D27A1BAA78D100D97AD4 /* UUChartLabel.h */,
+				5CD0D27B1BAA78D100D97AD4 /* UUChartLabel.m */,
+				5CD0D27C1BAA78D100D97AD4 /* UUColor.h */,
+				5CD0D27D1BAA78D100D97AD4 /* UUColor.m */,
+				5CD0D27E1BAA78D100D97AD4 /* UULineChart.h */,
+				5CD0D27F1BAA78D100D97AD4 /* UULineChart.m */,
+			);
+			name = UUcharts;
+			sourceTree = "<group>";
+		};
+		5CD0D2891BAC223300D97AD4 /* Bing */ = {
+			isa = PBXGroup;
+			children = (
+				5CD0D28A1BAC22D900D97AD4 /* UIColor+HexColor.h */,
+				5CD0D28B1BAC22D900D97AD4 /* UIColor+HexColor.m */,
+				5CD0D28C1BAC22D900D97AD4 /* VBPieChart.h */,
+				5CD0D28E1BAC22D900D97AD4 /* VBPiePiece.h */,
+				5CD0D28D1BAC22D900D97AD4 /* VBPieChart.m */,
+				5CD0D28F1BAC22D900D97AD4 /* VBPiePiece.m */,
+			);
+			name = Bing;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,10 +357,12 @@
 				5C497F521B92B0AC004038DC /* Sources */,
 				5C497F531B92B0AC004038DC /* Frameworks */,
 				5C497F541B92B0AC004038DC /* Resources */,
+				5C96ECD21B92E9F800A9A614 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5C96ECCA1B92E9F800A9A614 /* PBXTargetDependency */,
 			);
 			name = FootAS;
 			productName = FootAS;
@@ -157,6 +387,39 @@
 			productReference = 5C497F6F1B92B0AC004038DC /* FootASTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		5C96ECB11B92E9F700A9A614 /* FootAS WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C96ECCF1B92E9F800A9A614 /* Build configuration list for PBXNativeTarget "FootAS WatchKit Extension" */;
+			buildPhases = (
+				5C96ECAE1B92E9F700A9A614 /* Sources */,
+				5C96ECAF1B92E9F700A9A614 /* Frameworks */,
+				5C96ECB01B92E9F700A9A614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C96ECC01B92E9F800A9A614 /* PBXTargetDependency */,
+			);
+			name = "FootAS WatchKit Extension";
+			productName = "FootAS WatchKit Extension";
+			productReference = 5C96ECB21B92E9F700A9A614 /* FootAS WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		5C96ECBC1B92E9F800A9A614 /* FootAS WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C96ECCC1B92E9F800A9A614 /* Build configuration list for PBXNativeTarget "FootAS WatchKit App" */;
+			buildPhases = (
+				5C96ECBB1B92E9F800A9A614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FootAS WatchKit App";
+			productName = "FootAS WatchKit App";
+			productReference = 5C96ECBD1B92E9F800A9A614 /* FootAS WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,10 +431,32 @@
 				TargetAttributes = {
 					5C497F551B92B0AC004038DC = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = UV6VG2R2XW;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 					5C497F6E1B92B0AC004038DC = {
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = 5C497F551B92B0AC004038DC;
+					};
+					5C96ECB11B92E9F700A9A614 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = UV6VG2R2XW;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					5C96ECBC1B92E9F800A9A614 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = UV6VG2R2XW;
 					};
 				};
 			};
@@ -190,6 +475,8 @@
 			targets = (
 				5C497F551B92B0AC004038DC /* FootAS */,
 				5C497F6E1B92B0AC004038DC /* FootASTests */,
+				5C96ECB11B92E9F700A9A614 /* FootAS WatchKit Extension */,
+				5C96ECBC1B92E9F800A9A614 /* FootAS WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -200,8 +487,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C497F651B92B0AC004038DC /* Main.storyboard in Resources */,
+				5C96EC851B92C4A200A9A614 /* button.png in Resources */,
+				5C96EC841B92C4A200A9A614 /* button_selected.png in Resources */,
+				5CD0D2991BAC3B1D00D97AD4 /* dot.png in Resources */,
+				5C0442181B92B1830076DC93 /* spot.png in Resources */,
+				5CD0D2971BAC3AF400D97AD4 /* foot.png in Resources */,
 				5C497F6A1B92B0AC004038DC /* LaunchScreen.xib in Resources */,
+				5CF2D5A91B993A28007F5F08 /* icon.png in Resources */,
+				5CD0D29B1BAC3B3100D97AD4 /* dot_light.png in Resources */,
 				5C497F671B92B0AC004038DC /* Images.xcassets in Resources */,
+				5CD0D29E1BAC526C00D97AD4 /* button_light.png in Resources */,
+				5CD0D29F1BAC526C00D97AD4 /* button.png in Resources */,
+				5CF2D5A81B993A28007F5F08 /* default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +509,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C96ECB01B92E9F700A9A614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C96ECBE1B92E9F800A9A614 /* FootAS WatchKit App.app in Resources */,
+				5C96ECBA1B92E9F800A9A614 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C96ECBB1B92E9F800A9A614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C96ECC61B92E9F800A9A614 /* Interface.storyboard in Resources */,
+				5C96ECC81B92E9F800A9A614 /* Images.xcassets in Resources */,
+				5CF2D5AD1B994057007F5F08 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -219,9 +535,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CD0D2811BAA78D100D97AD4 /* UUBarChart.m in Sources */,
+				5CD0D2831BAA78D100D97AD4 /* UUChartLabel.m in Sources */,
 				5C497F621B92B0AC004038DC /* ViewController.m in Sources */,
+				5CD0D2921BAC22D900D97AD4 /* VBPiePiece.m in Sources */,
+				5CD0D2821BAA78D100D97AD4 /* UUChart.m in Sources */,
+				5CD0D2851BAA78D100D97AD4 /* UULineChart.m in Sources */,
+				5CD0D2881BAA798F00D97AD4 /* TheLineChart.m in Sources */,
+				5CF2D59D1B95B256007F5F08 /* MMWormhole.m in Sources */,
+				5CD0D2901BAC22D900D97AD4 /* UIColor+HexColor.m in Sources */,
+				5CF2D5A51B981407007F5F08 /* HealthKitC.m in Sources */,
+				5CD0D2951BAC230300D97AD4 /* TheBing.m in Sources */,
+				5CD0D2801BAA78D100D97AD4 /* UUBar.m in Sources */,
 				5C497F5F1B92B0AC004038DC /* AppDelegate.m in Sources */,
+				5CD0D2841BAA78D100D97AD4 /* UUColor.m in Sources */,
 				5C497F5C1B92B0AC004038DC /* main.m in Sources */,
+				5C0442141B92B12F0076DC93 /* UARTPeripheral.m in Sources */,
+				5CD0D2911BAC22D900D97AD4 /* VBPieChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +563,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C96ECAE1B92E9F700A9A614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C96ECB81B92E9F800A9A614 /* InterfaceController.m in Sources */,
+				5C96ECD51B92EE1700A9A614 /* UARTPeripheral.m in Sources */,
+				5CF2D5A01B95B277007F5F08 /* MMWormhole.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -240,6 +580,16 @@
 			isa = PBXTargetDependency;
 			target = 5C497F551B92B0AC004038DC /* FootAS */;
 			targetProxy = 5C497F701B92B0AC004038DC /* PBXContainerItemProxy */;
+		};
+		5C96ECC01B92E9F800A9A614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C96ECBC1B92E9F800A9A614 /* FootAS WatchKit App */;
+			targetProxy = 5C96ECBF1B92E9F800A9A614 /* PBXContainerItemProxy */;
+		};
+		5C96ECCA1B92E9F800A9A614 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C96ECB11B92E9F700A9A614 /* FootAS WatchKit Extension */;
+			targetProxy = 5C96ECC91B92E9F800A9A614 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -258,6 +608,14 @@
 				5C497F691B92B0AC004038DC /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		5C96ECC41B92E9F800A9A614 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C96ECC51B92E9F800A9A614 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -280,6 +638,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yu zhong (BA4SR4GLZG)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -323,6 +682,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yu zhong (BA4SR4GLZG)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -347,9 +707,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FootAS/FootAS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FootAS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -357,9 +721,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FootAS/FootAS.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = FootAS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -397,6 +765,76 @@
 			};
 			name = Release;
 		};
+		5C96ECCD1B92E9F800A9A614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = FootAS_WatchKit_Extension;
+				INFOPLIST_FILE = "FootAS WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		5C96ECCE1B92E9F800A9A614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = FootAS_WatchKit_Extension;
+				INFOPLIST_FILE = "FootAS WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		5C96ECD01B92E9F800A9A614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "FootAS WatchKit Extension/FootAS WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FootAS WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5C96ECD11B92E9F800A9A614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "FootAS WatchKit Extension/FootAS WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "FootAS WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -416,6 +854,7 @@
 				5C497F7B1B92B0AC004038DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C497F7C1B92B0AC004038DC /* Build configuration list for PBXNativeTarget "FootASTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +863,25 @@
 				5C497F7E1B92B0AC004038DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C96ECCC1B92E9F800A9A614 /* Build configuration list for PBXNativeTarget "FootAS WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C96ECCD1B92E9F800A9A614 /* Debug */,
+				5C96ECCE1B92E9F800A9A614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C96ECCF1B92E9F800A9A614 /* Build configuration list for PBXNativeTarget "FootAS WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C96ECD01B92E9F800A9A614 /* Debug */,
+				5C96ECD11B92E9F800A9A614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
